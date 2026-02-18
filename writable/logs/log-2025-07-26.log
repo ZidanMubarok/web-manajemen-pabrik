@@ -1,0 +1,297 @@
+DEBUG - 2025-07-26 02:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-26 02:25:11 --> ErrorException: Undefined variable $totalOrders
+[Method: GET, Route: distributor]
+in APPPATH\Views\distributor\index.php on line 102.
+ 1 APPPATH\Views\distributor\index.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalOrders', 'D:\\laragon\\www\\amdk\\app\\Views\\distributor\\index.php', 102)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\laragon\\www\\amdk\\app\\Views\\distributor\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('distributor/index', [], true)
+ 5 APPPATH\Controllers\DistributorController.php(102): view('distributor/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DistributorController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DistributorController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\amdk\\public\\index.php')
+DEBUG - 2025-07-26 02:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-26 02:38:21 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in D:\laragon\www\amdk\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\laragon\www\amdk\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'amdk_app_db', 3306, '', 0)
+#1 D:\laragon\www\amdk\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\laragon\www\amdk\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\laragon\www\amdk\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\amdk\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\amdk\system\BaseModel.php(717): CodeIgniter\Model->doFirst()
+#6 D:\laragon\www\amdk\app\Controllers\AuthController.php(70): CodeIgniter\BaseModel->first()
+#7 D:\laragon\www\amdk\system\CodeIgniter.php(933): App\Controllers\AuthController->processLogin()
+#8 D:\laragon\www\amdk\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 D:\laragon\www\amdk\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\amdk\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\amdk\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\laragon\www\amdk\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\laragon\www\amdk\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in D:\laragon\www\amdk\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\laragon\www\amdk\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\laragon\www\amdk\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\amdk\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\laragon\www\amdk\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\laragon\www\amdk\system\BaseModel.php(717): CodeIgniter\Model->doFirst()
+#5 D:\laragon\www\amdk\app\Controllers\AuthController.php(70): CodeIgniter\BaseModel->first()
+#6 D:\laragon\www\amdk\system\CodeIgniter.php(933): App\Controllers\AuthController->processLogin()
+#7 D:\laragon\www\amdk\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 D:\laragon\www\amdk\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\amdk\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\amdk\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\laragon\www\amdk\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\laragon\www\amdk\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2025-07-26 02:38:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+[Method: POST, Route: login/process]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(70): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->processLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\amdk\\public\\index.php')
+DEBUG - 2025-07-26 02:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 02:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-26 02:56:10 --> mysqli_sql_exception: Unknown column 'orders.notes' in 'field list' in D:\laragon\www\amdk\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\laragon\www\amdk\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `distrib...', 0)
+#1 D:\laragon\www\amdk\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `distrib...')
+#2 D:\laragon\www\amdk\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `distrib...')
+#3 D:\laragon\www\amdk\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `distrib...', Array, false)
+#4 D:\laragon\www\amdk\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\amdk\system\BaseModel.php(717): CodeIgniter\Model->doFirst()
+#6 D:\laragon\www\amdk\app\Controllers\PabrikInvoiceController.php(140): CodeIgniter\BaseModel->first()
+#7 D:\laragon\www\amdk\system\CodeIgniter.php(933): App\Controllers\PabrikInvoiceController->detail('1')
+#8 D:\laragon\www\amdk\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PabrikInvoiceController))
+#9 D:\laragon\www\amdk\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\amdk\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\amdk\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\laragon\www\amdk\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\laragon\www\amdk\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2025-07-26 02:56:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'orders.notes' in 'field list'
+[Method: GET, Route: pabrik/distributor-invoices/detail/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `distributor_invoices`.*, `orders`.`agen_id`, `orders`.`distributor_id`, `orders`.`total_amount` as `order_total_amount`, `orders`.`order_date`, `orders`.`notes` as `order_notes`, `users`.`username` as `agen_username`, `users`.`email` as `agen_email`, `users`.`no_telpon` as `agen_telpon`, `users`.`alamat` as `agen_alamat`, `distributors_table`.`username` as `distributor_username`, `distributors_table`.`email` as `distributor_email`, `distributors_table`.`no_telpon` as `distributor_telpon`, `distributors_table`.`alamat` as `distributor_alamat`
+FROM `distributor_invoices`
+LEFT JOIN `orders` ON `orders`.`id` = `distributor_invoices`.`order_id`
+LEFT JOIN `users` ON `users`.`id` = `orders`.`agen_id`
+LEFT JOIN `users` as `distributors_table` ON `distributors_table`.`id` = `orders`.`distributor_id`
+WHERE `distributor_invoices`.`id` = :distributor_invoices.id:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\PabrikInvoiceController.php(140): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PabrikInvoiceController->detail('1')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PabrikInvoiceController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\amdk\\public\\index.php')
+CRITICAL - 2025-07-26 02:56:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'orders.notes' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `distributor_invoices`.*, `orders`.`agen_id`, `orders`.`distributor_id`, `orders`.`total_amount` as `order_total_amount`, `orders`.`order_date`, `orders`.`notes` as `order_notes`, `users`.`username` as `agen_username`, `users`.`email` as `agen_email`, `users`.`no_telpon` as `agen_telpon`, `users`.`alamat` as `agen_alamat`, `distributors_table`.`username` as `distributor_username`, `distributors_table`.`email` as `distributor_email`, `distributors_table`.`no_telpon` as `distributor_telpon`, `distributors_table`.`alamat` as `distributor_alamat`
+FROM `distributor_invoices`
+LEFT JOIN `orders` ON `orders`.`id` = `distributor_invoices`.`order_id`
+LEFT JOIN `users` ON `users`.`id` = `orders`.`agen_id`
+LEFT JOIN `users` as `distributors_table` ON `distributors_table`.`id` = `orders`.`distributor_id`
+WHERE `distributor_invoices`.`id` = \'1\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `distributor_invoices`.*, `orders`.`agen_id`, `orders`.`distributor_id`, `orders`.`total_amount` as `order_total_amount`, `orders`.`order_date`, `orders`.`notes` as `order_notes`, `users`.`username` as `agen_username`, `users`.`email` as `agen_email`, `users`.`no_telpon` as `agen_telpon`, `users`.`alamat` as `agen_alamat`, `distributors_table`.`username` as `distributor_username`, `distributors_table`.`email` as `distributor_email`, `distributors_table`.`no_telpon` as `distributor_telpon`, `distributors_table`.`alamat` as `distributor_alamat`
+FROM `distributor_invoices`
+LEFT JOIN `orders` ON `orders`.`id` = `distributor_invoices`.`order_id`
+LEFT JOIN `users` ON `users`.`id` = `orders`.`agen_id`
+LEFT JOIN `users` as `distributors_table` ON `distributors_table`.`id` = `orders`.`distributor_id`
+WHERE `distributor_invoices`.`id` = \'1\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `distributor_invoices`.*, `orders`.`agen_id`, `orders`.`distributor_id`, `orders`.`total_amount` as `order_total_amount`, `orders`.`order_date`, `orders`.`notes` as `order_notes`, `users`.`username` as `agen_username`, `users`.`email` as `agen_email`, `users`.`no_telpon` as `agen_telpon`, `users`.`alamat` as `agen_alamat`, `distributors_table`.`username` as `distributor_username`, `distributors_table`.`email` as `distributor_email`, `distributors_table`.`no_telpon` as `distributor_telpon`, `distributors_table`.`alamat` as `distributor_alamat`
+FROM `distributor_invoices`
+LEFT JOIN `orders` ON `orders`.`id` = `distributor_invoices`.`order_id`
+LEFT JOIN `users` ON `users`.`id` = `orders`.`agen_id`
+LEFT JOIN `users` as `distributors_table` ON `distributors_table`.`id` = `orders`.`distributor_id`
+WHERE `distributor_invoices`.`id` = :distributor_invoices.id:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\PabrikInvoiceController.php(140): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PabrikInvoiceController->detail('1')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PabrikInvoiceController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\amdk\\public\\index.php')
+CRITICAL - 2025-07-26 02:56:10 --> [Caused by] mysqli_sql_exception: Unknown column 'orders.notes' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `distributor_invoices`.*, `orders`.`agen_id`, `orders`.`distributor_id`, `orders`.`total_amount` as `order_total_amount`, `orders`.`order_date`, `orders`.`notes` as `order_notes`, `users`.`username` as `agen_username`, `users`.`email` as `agen_email`, `users`.`no_telpon` as `agen_telpon`, `users`.`alamat` as `agen_alamat`, `distributors_table`.`username` as `distributor_username`, `distributors_table`.`email` as `distributor_email`, `distributors_table`.`no_telpon` as `distributor_telpon`, `distributors_table`.`alamat` as `distributor_alamat`
+FROM `distributor_invoices`
+LEFT JOIN `orders` ON `orders`.`id` = `distributor_invoices`.`order_id`
+LEFT JOIN `users` ON `users`.`id` = `orders`.`agen_id`
+LEFT JOIN `users` as `distributors_table` ON `distributors_table`.`id` = `orders`.`distributor_id`
+WHERE `distributor_invoices`.`id` = \'1\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `distributor_invoices`.*, `orders`.`agen_id`, `orders`.`distributor_id`, `orders`.`total_amount` as `order_total_amount`, `orders`.`order_date`, `orders`.`notes` as `order_notes`, `users`.`username` as `agen_username`, `users`.`email` as `agen_email`, `users`.`no_telpon` as `agen_telpon`, `users`.`alamat` as `agen_alamat`, `distributors_table`.`username` as `distributor_username`, `distributors_table`.`email` as `distributor_email`, `distributors_table`.`no_telpon` as `distributor_telpon`, `distributors_table`.`alamat` as `distributor_alamat`
+FROM `distributor_invoices`
+LEFT JOIN `orders` ON `orders`.`id` = `distributor_invoices`.`order_id`
+LEFT JOIN `users` ON `users`.`id` = `orders`.`agen_id`
+LEFT JOIN `users` as `distributors_table` ON `distributors_table`.`id` = `orders`.`distributor_id`
+WHERE `distributor_invoices`.`id` = \'1\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `distributor_invoices`.*, `orders`.`agen_id`, `orders`.`distributor_id`, `orders`.`total_amount` as `order_total_amount`, `orders`.`order_date`, `orders`.`notes` as `order_notes`, `users`.`username` as `agen_username`, `users`.`email` as `agen_email`, `users`.`no_telpon` as `agen_telpon`, `users`.`alamat` as `agen_alamat`, `distributors_table`.`username` as `distributor_username`, `distributors_table`.`email` as `distributor_email`, `distributors_table`.`no_telpon` as `distributor_telpon`, `distributors_table`.`alamat` as `distributor_alamat`
+FROM `distributor_invoices`
+LEFT JOIN `orders` ON `orders`.`id` = `distributor_invoices`.`order_id`
+LEFT JOIN `users` ON `users`.`id` = `orders`.`agen_id`
+LEFT JOIN `users` as `distributors_table` ON `distributors_table`.`id` = `orders`.`distributor_id`
+WHERE `distributor_invoices`.`id` = \'1\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `distributor_invoices`.*, `orders`.`agen_id`, `orders`.`distributor_id`, `orders`.`total_amount` as `order_total_amount`, `orders`.`order_date`, `orders`.`notes` as `order_notes`, `users`.`username` as `agen_username`, `users`.`email` as `agen_email`, `users`.`no_telpon` as `agen_telpon`, `users`.`alamat` as `agen_alamat`, `distributors_table`.`username` as `distributor_username`, `distributors_table`.`email` as `distributor_email`, `distributors_table`.`no_telpon` as `distributor_telpon`, `distributors_table`.`alamat` as `distributor_alamat`
+FROM `distributor_invoices`
+LEFT JOIN `orders` ON `orders`.`id` = `distributor_invoices`.`order_id`
+LEFT JOIN `users` ON `users`.`id` = `orders`.`agen_id`
+LEFT JOIN `users` as `distributors_table` ON `distributors_table`.`id` = `orders`.`distributor_id`
+WHERE `distributor_invoices`.`id` = :distributor_invoices.id:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\PabrikInvoiceController.php(140): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PabrikInvoiceController->detail('1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PabrikInvoiceController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\amdk\\public\\index.php')
+DEBUG - 2025-07-26 02:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-26 02:59:52 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: pabrik/distributor-invoices/detail/1]
+in APPPATH\Controllers\PabrikInvoiceController.php on line 158.
+ 1 APPPATH\Controllers\PabrikInvoiceController.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'D:\\laragon\\www\\amdk\\app\\Controllers\\PabrikInvoiceController.php', 158)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PabrikInvoiceController->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PabrikInvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\amdk\\public\\index.php')
+DEBUG - 2025-07-26 03:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 03:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 07:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 07:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 07:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 07:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 07:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 07:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-26 07:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
