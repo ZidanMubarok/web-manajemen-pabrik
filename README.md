@@ -1,60 +1,62 @@
-# CodeIgniter 4 Framework
+# Framework CodeIgniter 4
 
-## What is CodeIgniter?
+## Apa itu CodeIgniter?
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+CodeIgniter adalah *framework* web *full-stack* PHP yang ringan, cepat, fleksibel, dan aman.  
+Informasi lebih lanjut dapat ditemukan di [situs resmi CodeIgniter](https://codeigniter.com).
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+Repositori ini berisi versi distribusi dari *framework* tersebut. Versi ini dibangun langsung dari [repositori pengembangan (development)](https://github.com/codeigniter4/CodeIgniter4).
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+Informasi lebih lanjut mengenai rencana untuk versi 4 dapat ditemukan di bagian [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) pada forum resmi kami.
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+Anda juga dapat membaca [panduan pengguna (*user guide*)](https://codeigniter.com/user_guide/) yang sesuai dengan versi terbaru *framework* ini.
 
-## Important Change with index.php
+---
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+## Perubahan Penting pada `index.php`
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+File `index.php` sekarang **tidak lagi berada di *root* (direktori utama) proyek!** File ini telah dipindahkan ke dalam folder `public` demi keamanan yang lebih baik dan pemisahan komponen.
 
-**Please** read the user guide for a better explanation of how CI4 works!
+Hal ini berarti Anda harus mengonfigurasi *web server* Anda agar "mengarah" ke folder `public` dari proyek Anda, dan **bukan** ke *root* proyek. 
+* **Praktik Terbaik:** Konfigurasikan *virtual host* untuk mengarah langsung ke folder `public`.
+* **Praktik Buruk:** Mengarahkan *web server* ke *root* proyek dan mengakses aplikasi via *URL* `namaprojek/public/...`. Hal ini sangat tidak dianjurkan karena akan mengekspos sisa logika aplikasi dan *framework* Anda ke publik.
 
-## Repository Management
+**Mohon** baca panduan pengguna untuk penjelasan yang lebih komprehensif tentang cara kerja CI4!
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+---
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+## Manajemen Repositori
 
-## Contributing
+Kami menggunakan GitHub Issues di repositori utama kami untuk melacak **BUGS (masalah/kutu)** dan paket pekerjaan **DEVELOPMENT (pengembangan)** yang disetujui.  
+Sedangkan untuk memberikan **DUKUNGAN** dan mendiskusikan **PERMINTAAN FITUR**, kami menggunakan [forum komunitas](http://forum.codeigniter.com).
 
-We welcome contributions from the community.
+Repositori ini khusus untuk "distribusi", yang di-*build* oleh skrip persiapan rilis kami. Jika Anda menemukan masalah pada versi ini, Anda dapat menyampaikannya di forum kami, atau membuka *issue* di repositori utama.
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+---
 
-## Server Requirements
+## Berkontribusi
 
-PHP version 8.1 or higher is required, with the following extensions installed:
+Kami sangat menyambut kontribusi dari komunitas!
+
+Silakan baca bagian [*Contributing to CodeIgniter* (Berkontribusi pada CodeIgniter)](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) di repositori pengembangan sebelum Anda mulai berkontribusi.
+
+---
+
+## Persyaratan Server
+
+Dibutuhkan **PHP versi 8.1** atau yang lebih tinggi, dengan beberapa ekstensi berikut yang harus terinstal:
 
 - [intl](http://php.net/manual/en/intl.requirements.php)
 - [mbstring](http://php.net/manual/en/mbstring.installation.php)
 
 > [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
+> - Masa dukungan (*End of Life*) untuk PHP 7.4 telah berakhir pada 28 November 2022.
+> - Masa dukungan untuk PHP 8.0 telah berakhir pada 26 November 2023.
+> - Jika Anda masih menggunakan PHP 7.4 atau 8.0, Anda harus **segera melakukan *upgrade***.
+> - Masa dukungan untuk PHP 8.1 akan berakhir pada 31 Desember 2025.
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+Selain itu, pastikan ekstensi berikut juga telah diaktifkan pada konfigurasi PHP Anda:
 
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+- `json` (aktif secara *default* - jangan dimatikan)
+- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) (wajib jika Anda berencana menggunakan *database* MySQL)
+- [libcurl](http://php.net/manual/en/curl.requirements.php) (wajib jika Anda berencana menggunakan *library* `HTTP\CURLRequest`)
