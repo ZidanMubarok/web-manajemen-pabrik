@@ -67,6 +67,7 @@ Pastikan server Anda dikonfigurasi dengan ekstensi PHP berikut agar Framework da
 
 ## 📂 Arsitektur Folder
 
+
 ```text
 ├── app/
 │   ├── Config/          # Konfigurasi sistem
