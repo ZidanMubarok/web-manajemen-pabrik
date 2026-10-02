@@ -52,7 +52,7 @@ Aplikasi ini dibangun dengan standar industri menggunakan library terkini:
 
 ## 📋 Persyaratan Sistem
 
-Pastikan server Anda dikonfigurasi dengan ekstensi PHP berikut agar Framework dan Library berfungsi (Cek file `php.ini` Anda):
+Pastikan server Anda dikonfigurasi dengan ekstensi PHP berikut agar Framework dan Library berfungsi (Cek file `php.ini` Anda Jika anda menggunakan hosting biasanya sudah terseting default dihosting):
 
 | Extension | Kegunaan |
 | :--- | :--- |
