@@ -13,8 +13,6 @@
 * [Spesifikasi Teknis](#-spesifikasi-teknis)
 * [Persyaratan Sistem](#-persyaratan-sistem)
 * [Arsitektur Folder](#-arsitektur-folder)
-* [Instalasi & Setup](#-instalasi--setup)
-* [Panduan Pengembangan](#-panduan-pengembangan)
 
 ---
 
